@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Q' Bolá</title>
+
+  <!-- Google Fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@100;300;400;500;600;700;800;900&family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+  <!-- CSS stylesheets -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favi.ico">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/e18b0c5bc6.js" crossorigin="anonymous"></script>
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <section class="colored-section" id="title">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">Q' BOLÁ</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Precios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Descargar</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+      <!-- Title -->
+      <div class="row heading-section">
+        <div class="col-lg-6">
+          <h1 class="big-heading">Únete a la plataforma de compras más rápida y segura.</h1>
+          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Descargar</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Descargar</button>
+        </div>
+        <div class="col-lg-6">
+          <img class="title-image" src="images/iphone.png" alt="iphone-mockup">
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+
+  <!-- Features -->
+  <section class="white-section" id="features">
+    <div class="row">
+      <div class="feature-box col-lg-4">
+        <i class="icon far fa-thumbs-up fa-7x"></i>
+        <h3>Fácil de Utilizar.</h3>
+        <p class="p-feature">Comprar nunca ha sido tan facil como ahora.</p>
+      </div>
+
+      <div class="feature-box col-lg-4">
+        <i class="icon fas fa-check-circle fa-7x"></i>
+        <h3>Productos de Calidad.</h3>
+        <p class="p-feature">Tenemos todos los productos que deseas, necesitas y amas.</p>
+      </div>
+
+      <div class="feature-box col-lg-4">
+        <i class="icon fas fa-shipping-fast fa-7x"></i>
+        <h3>Envíos a Todas las Provincias.</h3>
+        <p class="p-feature">Nadie se queda atrás. ¡Únete!</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+  <section class="colored-section" id="testimonials">
+    <div id="testimonial-carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#testimonial-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#testimonial-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#testimonial-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class="testimonial-text">Es el sitio más completo que he encontrado hasta ahora. Lo recomiendo un 100% a cualquiera que busque una manera fácil y rápida de ayudar a sus seres queridos.</h2>
+          <img class="testimonial-img" src="images/customer-1.png" alt="customer1-profile">
+          <em>Brenda, New York</em>
+        </div>
+
+        <div class="carousel-item">
+          <h2 class="testimonial-text">Es una aplicación que puedo utilizar dentro de Cuba y donde puedo encontrar cualquier alimento. He tenido una gran experiencia ya que las cosas que
+            he ordenado me han llegado súper rápido y son de buena calidad.</h2>
+          <img class="testimonial-img" src="images/customer-2.png" alt="customer2-profile">
+          <em>Pedro, Cuba</em>
+        </div>
+
+        <div class="carousel-item">
+          <h2 class="testimonial-text">¡Estoy encantada! Desde que encontré esta aplicacion he podido ayudar a mi familia y enviarle todo lo que necesitan.</h2>
+          <img class="testimonial-img" src="images/customer-3.png" alt="customer1-profile">
+          <em>Belkis, Florida</em>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+
+  <!-- Press -->
+  <section class="colored-section" id="press">
+    <img class="press-logo" src="images/forbes.png" alt="forbes-logo">
+    <img class="press-logo" src="images/cibercuba.png" alt="cibercuba-logo">
+    <img class="press-logo" src="images/TechCrunch.png" alt="TechCrunch-logo">
+
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+    <img class="press-logo" src="images/newyorktimes.png" alt="newyorktimes-logo">
+  </section>
+
+
+  <!-- Pricing -->
+  <section class="white-section" id="pricing">
+    <i class="icon-search fas fa-search-dollar fa-7x"></i>
+    <h2 class="section-heading">Explora algunos de nuestros famosos combos</h2>
+
+    <!-- CARD #1 -->
+    <div class="row text-center">
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header bg-transparent">
+            <h3>Barato</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$50</h2>
+            <p>1 kg de arroz</p>
+            <p>2 lb de jamón viki</p>
+            <p>1 cartón de huevos</p>
+            <p>2 unidades de picadillo</p>
+            <p>2 unidades de salchicha</p>
+            <button class="w-100 btn btn-lg btn-outline-dark" type="button">Comprar</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD #2 -->
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header bg-transparent">
+            <h3>Carnes+</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$150</h2>
+            <p>3 lb de pescado</p>
+            <p>2 lb de lomo ahumado</p>
+            <p>2 lb de pechuga de pollo</p>
+            <p>2 lb de picadillo</p>
+            <p>2 lb de bistec de cerdo</p>
+            <p>1 lb de hamburguesa</p>
+            <p>1 kg de tocino</p>
+            <button class="w-100 btn btn-lg btn-blue" type="button">Comprar</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD #3 -->
+      <div class="pricing-column col-lg-4 col-md-12">
+        <div class="card">
+          <div class="card-3-header card-header">
+            <h3>Supremo Mixto</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$222</h2>
+            <p>3 lb de bistec de cerdo</p>
+            <p>4 lb de masa de cerdo</p>
+            <p>5 lb de jamón especial</p>
+            <p>1 cartón de huevos</p>
+            <p>500g de espaguetis</p>
+            <p>400g de puré de tomate</p>
+            <p>6 latas pequeñas de atún</p>
+            <p>1 paquete de cerveza</p>
+            <p>4 refrescos piñata</p>
+            <p>8 lb de vegetales</p>
+            <p>10 lb de viandas</p>
+            <p>5 lb de arroz</p>
+            <p>250g de café</p>
+            <p>+Envió Gratis</p>
+            <button class="w-100 btn btn-lg btn-blue" type="button">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Call to Action -->
+  <section class="colored-section" id="cta">
+    <h3 class="cta-heading">Aprovecha Nuestras Increíbles Ofertas. ¡Únete Ya y Forma Parte de Nuestra Familia!</h3>
+    <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Descargar</button>
+    <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Descargar</button>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="white-section" id="footer">
+    <i class="social-icon fab fa-twitter fa-2x"></i>
+    <i class="social-icon fab fa-facebook fa-2x"></i>
+    <i class="social-icon fab fa-instagram fa-2x"></i>
+    <i class="social-icon fas fa-envelope fa-2x"></i>
+    <p>© Copyright 2021 Q' BOLÁ</p>
+  </footer>
+
+
+</body>
+
+</html>

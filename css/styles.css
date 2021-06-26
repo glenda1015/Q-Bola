@@ -1,0 +1,299 @@
+body {
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Comfortaa', cursive;
+}
+
+h3 {
+  font-weight: 900;
+}
+
+p {
+  color: black;
+}
+
+/* Headings */
+.big-heading {
+  font-family: 'Comfortaa', cursive;
+  font-size: 4.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #185ADB;
+  color: #FFF;
+}
+
+.white-section {
+  background-color: #FFF;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* Navigation Bar */
+.navbar {
+  /* padding-bottom: 4.5rem; */
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  right: 0;
+  padding: 0 0;
+  top: 0;
+  background-color: #185ADB;
+}
+
+.navbar-brand {
+  font-family: 'Big Shoulders Stencil Display', cursive;
+  font-size: 4rem;
+  font-weight: 800;
+  padding-left: 15%;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.navbar-nav {
+  padding-right: 22%;
+}
+
+/* Dowload Buttons */
+.download-button {
+  margin: 5% 7% 5% 0;
+}
+
+/* Tile Section */
+#title {
+  text-align: left;
+}
+
+.title-image {
+  width: 341px;
+  margin-left: 30%;
+}
+
+.heading-section {
+  padding-top: 100px;
+}
+
+/* Features Section */
+#features {
+  padding: 7% 15%;
+}
+
+.p-feature {
+  color: #8f8f8f;
+  font-size: 1.2rem;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.icon {
+  color: #185ADB;
+  margin-bottom: 2rem;
+}
+
+.icon:hover {
+  color: #FF2C2C;
+}
+
+/* Testimonial Section */
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  width: 200px;
+  margin: 40px;
+}
+
+#press {
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 300px;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Pricing Section */
+.icon-search {
+  color: #185ADB;
+  float: left;
+}
+
+.icon-search:hover {
+  color: #FF2C2C;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.card {
+  border-color: #185ADB;
+  border-width: medium;
+  border-radius: 2rem;
+}
+
+.card:hover {
+  transition: all 0.2s ease-out;
+  box-shadow: 5px 10px 18px #888888;
+  top: -4px;
+  border-color: #185ADB;
+  border-width: medium;
+}
+
+.card-header {
+  border-bottom-color: #185ADB;
+}
+
+.card-3-header {
+  background-color: #185ADB;
+  color: #FFF;
+}
+
+.card-header:first-child {
+  border-top-right-radius: 1.5rem;
+  border-top-left-radius: 1.5rem;
+}
+
+.btn-outline-dark {
+  border-color: #185ADB;
+}
+
+.btn-outline-dark:hover {
+  background-color: #185ADB;
+  border: none;
+}
+
+.btn-blue {
+  background-color: #185ADB;
+  border: none;
+  color: #FFF;
+}
+
+.btn-blue:hover {
+  background-color: #FF2C2C;
+  border: none;
+  color: #FFF;
+}
+
+/* <!-- Call to Action Section --> */
+#cta {
+  color: #FFF;
+  padding: 7% 15%;
+}
+
+.cta-heading {
+  font-family: 'Big Shoulders Stencil Display', cursive;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* <!-- Footer Section --> */
+#footer {
+  padding: 3.5% 15%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+  color: #185ADB;
+}
+
+.social-icon:hover {
+  color: #FF2C2C;
+}
+
+/* Media */
+@media (max-width: 1328px) {
+  .big-heading {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 1092px) {
+  .big-heading {
+    font-size: 3rem;
+  }
+
+  .title-image {
+    margin: auto;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  .testimonial-text {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 703px) {
+  .press-logo {
+    width: 190px;
+  }
+}
+
+/* iPhone */
+@media (max-width: 656px) {
+  .navbar-brand {
+    font-size: 3rem;
+  }
+
+  .big-heading {
+    font-size: 2.5rem;
+  }
+
+  .title-image {
+    padding-top: 5%;
+    width: 250px;
+  }
+
+  .testimonial-text {
+    font-size: 1.5rem;
+  }
+
+  .section-heading {
+    font-size: 1.8rem;
+  }
+
+  .cta-heading {
+    font-size: 2.5rem;
+  }
+}
